@@ -6,7 +6,7 @@ import java.util.List;
 public abstract class Attendance {
     private String name;
     private String id;
-    private List<String> attendance; // List of dates when this entity was present
+    private List<String> attendance;
 
     public Attendance(String name, String id) {
         this.name = name;
